@@ -1,0 +1,23 @@
+<div class="wrapper">
+  <div class="inner">
+    <div class="singin-logo">
+      <img src="assets/img/logo-lg.png" alt="" class="signin-logo-img">
+    </div>
+    <div class="form-group">
+      <p class="singin-header-text">Welcome!</p>
+    </div>
+    <form [formGroup]="loginForm" (ngSubmit)="signIn()">
+      <div class="form-group input-box">
+        <input class="login" type="text" formControlName="login" class="input-field input-field-login" placeholder="Login">
+      </div>
+      <div class="form-group input-box">
+        <input class="password" type="password" formControlName="password" class="input-field input-field-password" placeholder="Password">
+      </div>
+      <div class="form-group input-box">
+        <button type="submit" class="btn btn-primary signin-button">
+          <span></span>Log in
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

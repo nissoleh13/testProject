@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.input-field-login{
+  background: url("./assets/img/icon-login.png")
+}
+.input-field-password{
+  background: url("./assets/img/icon-user-white.png");
+}
+.signin-button span{
+  display: inline-block;
+  width: .75rem;
+  height: .75rem;
+  margin-right: .5rem;
+  background: url("./assets/img/icon-user-white-fill.png") no-repeat 50% 50%;
+}
